@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Video from "../../videos/video.mp4";
+import { Button } from "react-scroll";
 import {
   HeroContainer,
   HeroBg,
@@ -11,7 +12,6 @@ import {
   ArrowForward,
   ArrowRight,
 } from "./HeroElements";
-import { Button } from "react-scroll";
 
 const Hero = () => {
   const [hover, setHover] = useState(false);
