@@ -45,6 +45,7 @@ export const Column2 = styled.div`
   padding: 0 15px;
   grid-area: col2;
 `;
+
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
@@ -94,5 +95,12 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
+  height: auto;
   padding-right: 0;
 `;
+// export const Img = styled.img`
+//   width: 100%;
+//   height: auto; /* Add this line to maintain the aspect ratio */
+//   margin: 0 0 10px 0;
+//   padding-right: 0;
+// `;

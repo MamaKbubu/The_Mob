@@ -15,3 +15,37 @@ export const homeObjOne = {
   primary: true,
   darkText: false,
 };
+export const homeObjTwo = {
+  id: "dicover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Premium Frontend Developer",
+  headline: "With a passion for creating beautiful and functional websites",
+  description:
+    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
+  buttonLabel: "Learn More",
+  imgStart: false,
+  img: require("../../images/svg-2.svg"),
+  alt: "Car",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+export const homeObjThree = {
+  id: "about",
+  lightBg: true,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Premium Frontend Developer",
+  headline: "With a passion for creating beautiful and functional websites",
+  description:
+    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
+  buttonLabel: "Get started",
+  imgStart: true,
+  img: require("../../images/svg-4.svg"),
+  alt: "Car",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
