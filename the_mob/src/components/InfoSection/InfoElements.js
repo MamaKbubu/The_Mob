@@ -53,7 +53,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #000;
+  color: #01bf71;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -63,7 +63,8 @@ export const TopLine = styled.p`
 `;
 
 export const Heading = styled.h1`
-  color: #000;
+  // color: #000;
+  margin-bottom : 24px
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
@@ -74,12 +75,12 @@ export const Heading = styled.h1`
   }
 `;
 export const Subtitle = styled.p`
-  color: #000;
+  // color: #000;
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  // color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 `;
 
 export const BtnWrap = styled.div`

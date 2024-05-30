@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Video from "../../videos/video.mp4";
-import { Button } from "../ButtonElement";
+import { Button } from "../ButtonElements";
 import {
   HeroContainer,
   HeroBg,
@@ -26,10 +26,10 @@ const Hero = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>THE MOB</HeroH1>
+        <HeroH1>A Whole Canine Behavorist</HeroH1>
         <HeroP>
-          Sign up for a new account today and we will do the marketing for
-          you!!!
+          Come and sign up for my services. This website will give you a break
+          down of how I may train your dogs.
         </HeroP>
         <HeroBtnWrapper>
           <Button
