@@ -10,8 +10,13 @@ const Footer = () => {
               <FooterLinkItems>
                 <FooterLinkTitle>About Us </FooterLinkTitle>
                 <FooterLink to="/signin">About Us</FooterLink>
-                <FooterLink to="/signin">Testimonials</FooterLink>
-                <FooterLink to="/signin">Terms Os Service</FooterLink>
+                <FooterLink to="/testimonials">Testimonials</FooterLink>
+                <FooterLink to="/terms">Terms Os Service</FooterLink>
+              </FooterLinkItems>
+              <FooterLinkItems>
+                <FooterLinkTitle>Contact Us </FooterLinkTitle>
+                <FooterLink to="/contact">Contact Us</FooterLink>
+                <FooterLink to="/support">Support</FooterLink>
               </FooterLinkItems>
             </FooterLinksWrapper>
           </FooterLinksContainer>
