@@ -7,7 +7,20 @@ import {
   FooterLinkItems,
   FooterLinkTitle,
   FooterLink,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialLogo,
+  WebsiteRights,
+  SocialIcons,
+  SocialIconLink,
 } from "./FooterElements";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+  FaLinkedin,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -29,6 +42,35 @@ const Footer = () => {
               </FooterLinkItems>
             </FooterLinksWrapper>
           </FooterLinksContainer>
+          <SocialMedia>
+            <SocialMediaWrap>
+              <SocialLogo to="/">Logo</SocialLogo>
+              <WebsiteRights>
+                Logo © {new Date().getFullYear()} All rights reserved.
+              </WebsiteRights>
+              <SocialIcons>
+                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                  <FaFacebook />
+                </SocialIconLink>
+                <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                  <FaInstagram />
+                </SocialIconLink>
+                <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+                  <FaYoutube />
+                </SocialIconLink>
+                <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+                  <FaTwitter />
+                </SocialIconLink>
+                <SocialIconLink
+                  href="//https://www.instagram.com/doggycloud_sa/"
+                  target="_blank"
+                  aria-label="LinkedIn"
+                >
+                  <FaLinkedin />
+                </SocialIconLink>
+              </SocialIcons>
+            </SocialMediaWrap>
+          </SocialMedia>
         </FooterWrap>
       </FooterContainer>
     </>
