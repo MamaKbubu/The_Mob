@@ -49,10 +49,18 @@ const Footer = () => {
                 Logo © {new Date().getFullYear()} All rights reserved.
               </WebsiteRights>
               <SocialIcons>
-                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                <SocialIconLink
+                  href="https://www.facebook.com/profile.php?id=100087758115687"
+                  target="_blank"
+                  aria-label="Facebook"
+                >
                   <FaFacebook />
                 </SocialIconLink>
-                <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                <SocialIconLink
+                  href="https://www.instagram.com/doggycloud_sa/"
+                  target="_blank"
+                  aria-label="Instagram"
+                >
                   <FaInstagram />
                 </SocialIconLink>
                 <SocialIconLink href="/" target="_blank" aria-label="Youtube">
@@ -61,11 +69,7 @@ const Footer = () => {
                 <SocialIconLink href="/" target="_blank" aria-label="Twitter">
                   <FaTwitter />
                 </SocialIconLink>
-                <SocialIconLink
-                  href="//https://www.instagram.com/doggycloud_sa/"
-                  target="_blank"
-                  aria-label="LinkedIn"
-                >
+                <SocialIconLink href="" target="_blank" aria-label="LinkedIn">
                   <FaLinkedin />
                 </SocialIconLink>
               </SocialIcons>
