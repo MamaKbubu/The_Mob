@@ -14,13 +14,7 @@ import {
   SocialIcons,
   SocialIconLink,
 } from "./FooterElements";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -63,14 +57,12 @@ const Footer = () => {
                 >
                   <FaInstagram />
                 </SocialIconLink>
-                <SocialIconLink href="/" target="_blank" aria-label="Youtube">
-                  <FaYoutube />
-                </SocialIconLink>
-                <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                  <FaTwitter />
-                </SocialIconLink>
-                <SocialIconLink href="" target="_blank" aria-label="LinkedIn">
-                  <FaLinkedin />
+                <SocialIconLink
+                  href="https://wa.me/+27676904536"
+                  target="_blank"
+                  aria-label="Twitter"
+                >
+                  <FaWhatsapp />
                 </SocialIconLink>
               </SocialIcons>
             </SocialMediaWrap>
