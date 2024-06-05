@@ -1,6 +1,6 @@
 import React from "react";
-import Icon1 from "../../images/pic-1.jpg";
-import Icon2 from "../../images/svg-2.svg";
+import Icon1 from "../../images/pet-sitting.png";
+import Icon2 from "../../images/obedience.jpg";
 import Icon3 from "../../images/pic-2.jpg";
 import {
   ServicesContainer,
@@ -20,8 +20,11 @@ const Services = () => {
         <ServicesWrapper>
           <ServicesCard>
             <ServicesIcon src={Icon1} />
-            <ServicesH2>Services</ServicesH2>
-            <ServicesP>All of these are the services that I provide.</ServicesP>
+            <ServicesH2>Pet Sitting</ServicesH2>
+            <ServicesP>
+              I have handled a various number of animals this being cats, dogs,
+              wolves...lol
+            </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon2} />

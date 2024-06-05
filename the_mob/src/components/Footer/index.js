@@ -15,6 +15,7 @@ import {
   SocialIconLink,
 } from "./FooterElements";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+// import Icon1 from "../../images/the_mob.jpg";
 
 const Footer = () => {
   return (
@@ -38,9 +39,9 @@ const Footer = () => {
           </FooterLinksContainer>
           <SocialMedia>
             <SocialMediaWrap>
-              <SocialLogo to="/">Logo</SocialLogo>
+              <SocialLogo to="/">THE MOB</SocialLogo>
               <WebsiteRights>
-                Logo © {new Date().getFullYear()} All rights reserved.
+                The_Mob © {new Date().getFullYear()} All rights reserved.
               </WebsiteRights>
               <SocialIcons>
                 <SocialIconLink
