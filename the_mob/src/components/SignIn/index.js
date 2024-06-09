@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-import {auth} from "../../firebase";
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../../firebase";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+} from "firebase/auth";
 import {
   Container,
   FormWrap,
@@ -14,20 +17,19 @@ import {
   Text,
 } from "./SigninElements";
 
-
 const SignIn = () => {
-  const [email,setEmail] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await signInWithEmailAndPassword(auth, email, password );
+      await signInWithEmailAndPassword(auth, email, password);
+      console.log("you signed in");
     } catch (error) {
-      console.error("oh no you didnt",error)
-  
+      console.error("oh no you didnt", error);
     }
-  }
+  };
   return (
     <>
       <Container>
@@ -37,9 +39,19 @@ const SignIn = () => {
             <Form action="#" onSubmit={handleSubmit}>
               <FormH1>Sign in to your account</FormH1>
               <FormLabel htmlFor="for">Email</FormLabel>
-              <FormInput type="email" value={email} onChange={(e)=> setEmail(e.target.value)} required />
+              <FormInput
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
               <FormLabel htmlFor="for">Password</FormLabel>
-              <FormInput type="password" value={password} onChange={(e)=> setPassword(e.target.value)} required/>
+              <FormInput
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
               <FormButton type="button">Sign UP</FormButton>
 
               <FormButton type="submit">Sign In</FormButton>
